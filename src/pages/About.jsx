@@ -26,7 +26,7 @@ function About() {
             transition={{duration:1.5, ease:easeOut}}
             className="text-[4rem]  md:text-[8rem] font-mono">YOUR GLOW</motion.h1>
         </div>
-        <div className="flex justify-center items-center mt-45 md:mt-10">
+        <div className="flex justify-center items-center mt-20 md:mt-10">
             <div className="text-center flex justify-center items-center flex-col"> 
              <motion.p
                initial={{y:150, opacity:0}}

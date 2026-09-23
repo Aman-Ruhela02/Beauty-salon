@@ -78,11 +78,11 @@ const Blog = () => {
               <h1 className="font-bold">DERMAPLANING</h1>
               <p>$59</p>
               <p className="font-['sans']">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+                Lorem ipsum dolor sit amet consectetur   Harum,
                 assumenda.
               </p>
               <p className="font-['sans']">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+                 amet consectetur adipisicing elit. Harum,
                 assumenda.
               </p>
               <button className="bg-[#111111e3] text-white font-medium px-2 mt-7">
@@ -173,11 +173,7 @@ const Blog = () => {
               initial={{ x: -300, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               whileHover={{ scale: 1.2 }}
-             transition={{
-                x: { duration: 1.2, ease: easeOut },
-                opacity: { duration: 1.2, ease: easeOut },
-                scale: { duration: 0.2, ease: "easeOut" },
-              }}
+              transition={{ duration: 1.2, ease: easeOut }}
               className="relative h-60 m-2 "
             >
               <h2 className="absolute top-7 left-6 text-white text-3xl font-medium">
