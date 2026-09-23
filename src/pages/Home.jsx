@@ -3,7 +3,7 @@
 const Home = () => {
   return (
     <>
-      <main className="relative min-h-screen overflow-x-hidden">
+      <main className="relative min-h-screen overflow-x-hidden w-full">
        <picture>
         <source className="h-screen w-full object-cover" media="(min-width: 786px)" 
         srcSet="herodesktop.png" />
