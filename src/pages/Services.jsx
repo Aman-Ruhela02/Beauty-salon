@@ -3,11 +3,11 @@ import { motion } from "framer-motion"
 const Services = () => {
   return (
     <>
-      <main className="bg-[#94a8a819] min-h-screen pb-10 ">
+      <main className="bg-[#94a8a819] min-h-screen w-full">
         <div className="flex justify-center items-center">
             <h1 className="text-5xl mt-15 font-medium font-sans ">OUR SERVICES</h1>
         </div>
-        <div className="flex flex-col mt-15 md:flex-row justify-center items-center gap-10 mb-20 m-3 ">
+        <div className="flex flex-col mt-15 md:flex-row justify-center items-center gap-10 mb-20 m-3 overflow-hidden p-8 md:p-10 lg:p-12">
             <motion.div 
             whileHover={{scale:0.8, rotate:20}}
             className="relative rotate-10">
@@ -35,7 +35,7 @@ const Services = () => {
 
            
         </div>
-         <div className=" text-center text-xl font-medium "><button className="underline mt-10 md:mt-20 hover:cursor-pointer">View All</button></div>
+         <div className=" text-center text-xl font-medium pb-6"><button className="underline mt-10 md:mt-20 hover:cursor-pointer">View All</button></div>
       </main>
     </>
   )
