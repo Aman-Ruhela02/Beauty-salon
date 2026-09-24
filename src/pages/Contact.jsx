@@ -18,15 +18,15 @@ const Contact = () => {
            transition={{duration:1.1,ease:easeOut}}
             className="font text-[3.5rem]">REVIEWS</motion.h1>
           </div>
-          <motion.div 
+          <div 
           
-          className="mt-8">
+          className="mt-8 hidden sm:flex">
             <motion.h1 
             initial={{x:50,opacity:0}}
            whileInView={{x:0,opacity:1}}
            transition={{duration:1.1,ease:easeOut}}
             className="underline">More reviews</motion.h1>
-          </motion.div>
+          </div>
        
         </div>
        
