@@ -3,7 +3,7 @@ import { easeOut, motion } from "framer-motion";
 const Blog = () => {
   return (
     <>
-      <main className="min-h-screen mb-15 md:mb-0 overflow-x-hidden">
+      <main className="min-h-screen mb-30 md:mb-20 overflow-x-hidden">
         <div className="p-4">
           <div className="text-center mt-10">
             <h1 className="text-4xl underline">All Blogs</h1>
@@ -173,7 +173,11 @@ const Blog = () => {
               initial={{ x: -300, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               whileHover={{ scale: 1.2 }}
-              transition={{ duration: 1.2, ease: easeOut }}
+              transition={{
+                x: { duration: 1.2, ease: easeOut },
+                opacity: { duration: 1.2, ease: easeOut },
+                scale: { duration: 0.2, ease: "easeOut" },
+              }}
               className="relative h-60 m-2 "
             >
               <h2 className="absolute top-7 left-6 text-white text-3xl font-medium">
